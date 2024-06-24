@@ -1,4 +1,5 @@
 import "./Header.scss";
+import { NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -6,15 +7,15 @@ export default function Header() {
       <h2 className="header__gm">gm.</h2>
       <nav className="header__nav">
         <ul className="header__ul">
-          <li  className="header__li">
-            <h2 className="header__h2">Work</h2>
-          </li>
-          <li  className="header__li">
+          <NavLink className="header__li" to={'/'}>
+          <h2 className="header__h2">Work</h2>
+          </NavLink>
+          <NavLink  className="header__li" to={'/about'}>
             <h2 className="header__h2">About</h2>
-          </li>
-          <li  className="header__li">
+          </NavLink>
+          <NavLink  className="header__li" to={'/contact'}>
             <h2 className="header__h2">Contact</h2>
-          </li>
+          </NavLink>
         </ul>
       </nav>
     </header>

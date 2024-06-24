@@ -1,5 +1,17 @@
 @font-face {
   font-family: DMSans;
+  src: url("../../assets/DM_Sans/static/DMSans-Thin.ttf") format("truetype");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: DMSans;
+  src: url("../../assets/DM_Sans/static/DMSans-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: DMSans;
   src: url("../../assets/DM_Sans/static/DMSans-Light.ttf") format("truetype");
   font-weight: 300;
 }

@@ -5,9 +5,13 @@
   text-align: center;
 }
 
+body{
+  margin: 0;
+}
+
 .app {
   &__content {
-    min-height: calc(100vh - 200px);
+    min-height: calc(100vh - 300px);
   }
   &__footer {
     position: relative;
