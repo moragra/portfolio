@@ -9,12 +9,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <BrowserRouter>
-        <header>
+        <header className="app__header">
           <Header />
         </header>
-        <div>
+        <div className="app__content">
           <Routes>
             <Route path="/" element={<Work />} />
             <Route path="/about" element={ <About />} />
@@ -22,7 +22,7 @@ function App() {
             <Route path="*" element={ <NotFound />} />
           </Routes>
         </div>
-        <footer>
+        <footer className="app__footer">
           <Footer />
         </footer>
       </BrowserRouter>

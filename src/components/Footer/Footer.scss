@@ -1,0 +1,21 @@
+.footer{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    &__h3{
+        font-weight: 400;
+        font-size: 1rem;
+        margin: 0;
+    }
+    &__div{
+       display: flex; 
+       justify-content: space-between;
+       width: 10rem;
+    }
+
+    &__h4{
+        font-weight: 400;
+        font-size: 1rem;
+        margin: 0;
+    }
+}
