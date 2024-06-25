@@ -1,24 +1,22 @@
 {
-    "public": {
+  "headers": [
+    {
+      "source": "/index.html",
       "headers": [
         {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Content-Type",
-              "value": "text/html"
-            }
-          ]
-        },
+          "key": "Content-Type",
+          "value": "text/html"
+        }
+      ]
+    },
+    {
+      "source": "/static/*",
+      "headers": [
         {
-          "source": "/static/*",
-          "headers": [
-            {
-              "key": "Content-Type",
-              "value": "application/javascript"
-            }
-          ]
+          "key": "Content-Type",
+          "value": "application/javascript"
         }
       ]
     }
-  }
+  ]
+}
