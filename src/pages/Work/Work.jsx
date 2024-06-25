@@ -8,6 +8,7 @@ export default function Work() {
     <div className="work">
       <div className="work__header">
         <h1 className="work__header-h1">Hello, I’m <br/> Graciela Mora.</h1>
+        {/* <h1 className="work__header-h1">Hello.</h1> */}
         <p className="work__header-p">A cybersecurity specialist who’s <br /> transitioning to full stack engineer.</p>
       </div>
       <div className="work__arrow">

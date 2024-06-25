@@ -8,7 +8,7 @@ export default function About() {
       <div className="about__header">
         <div className="about__header-left">
           <h2 className="about__h2">
-            Hi I’m Graciela Mora, full stack engineer.
+            I’m Graciela Mora, full stack engineer.
           </h2>
           <p className="about__bio">
             My work revolves around full stack development. I love the entire
@@ -60,7 +60,9 @@ export default function About() {
         </h4>
         <div className="about__btm-right">
           <h4 className="about__btm-right-h4">moragraa@gmail.com</h4>
+          <Link className="about__btm-right-link" to={'/resume'}>
           <h5 className="about__btm-right-h5">View Resume</h5>
+          </Link>
         </div>
       </div>
     </div>

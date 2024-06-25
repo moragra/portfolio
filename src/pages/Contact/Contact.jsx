@@ -38,7 +38,7 @@ export default function Contact() {
   return (
     <div className="contact">
       <div className="contact__left">
-        <h2 className="contact__h2">Hello.</h2>
+        <h2 className="contact__h2">Lets talk.</h2>
         <p className="contact__p">
           Have some big idea or brand to develop and need help? Then reach out
           I'd love to hear about your project and provide help

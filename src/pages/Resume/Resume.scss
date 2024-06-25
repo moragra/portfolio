@@ -1,0 +1,71 @@
+.resume{
+    display: flex;
+    padding-top: 5rem;
+    justify-content: space-between;
+    &__left{
+        width: 23rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    // &__photo{
+    //     width: 14.8125rem;
+    //     height: 13.125rem;
+    //     filter: grayscale(100%); 
+    //     padding-bottom: 3rem;
+    // }
+
+    &__h1{
+        text-align: start;
+        font-size: 4rem;
+        margin: 0;
+        font-weight: 600;
+
+    }
+
+    &__top-h2{
+        font-weight: 500;
+        text-align: start;
+    }
+
+    &__info-top{
+        text-align: start;
+    }
+
+    &__a{
+        text-decoration: none;
+        color: gray;
+    }
+
+    &__gt{
+        color: gray;
+        text-decoration: none;
+        text-align: start;
+        margin: 0.5rem;
+    }
+
+    &__h2{
+        text-align: start;
+        margin-bottom: 0.5rem;
+        padding-top: 1rem;
+        
+        // &:first-child{
+        //     // padding-top: 0.5rem;
+        //     margin-top: 0.5rem;
+        // }
+    }
+
+    &__h3{
+        text-align: start;
+        margin-bottom: 0;
+    }
+
+    &__ul{
+        list-style: none;
+        padding:0 1rem
+    }
+
+    &__right{
+        width: 40rem;
+    }
+}
