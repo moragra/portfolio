@@ -10,7 +10,7 @@
       ]
     },
     {
-      "source": "/static/*",
+      "source": "/src/*",
       "headers": [
         {
           "key": "Content-Type",
