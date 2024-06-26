@@ -1,14 +1,13 @@
 import "./Work.scss";
-import down from '../../../assets/down_arrow.png'
-import mockup1 from '../../../assets/mockup-1.jpeg'
-import mockup2 from '../../../assets/mockup-2.jpeg'
+import down from '../../assets/imgs/down_arrow.png'
+import mockup1 from '../../assets/imgs/mockup-1.jpeg'
+import mockup2 from '../../assets/imgs/mockup-2.jpeg'
 
 export default function Work() {
   return (
     <div className="work">
       <div className="work__header">
         <h1 className="work__header-h1">Hello, I’m <br/> Graciela Mora.</h1>
-        {/* <h1 className="work__header-h1">Hello.</h1> */}
         <p className="work__header-p">A cybersecurity specialist who’s <br /> transitioning to full stack engineer.</p>
       </div>
       <div className="work__arrow">
