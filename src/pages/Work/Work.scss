@@ -1,3 +1,9 @@
+@use '../../partials/fonts.scss' as *;
+
+body{
+    font-family: DMSans;
+}
+
 .work {
   &__header {
     padding: 10rem 0;
