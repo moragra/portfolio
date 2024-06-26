@@ -1,5 +1,5 @@
 import "./About.scss";
-import gm_photo from "../../../assets/imgs/gm_photo.png";
+import gm_photo from "../../../assets/gm_photo.png";
 import { Link } from "react-router-dom";
 
 export default function About() {

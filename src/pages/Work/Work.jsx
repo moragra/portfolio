@@ -1,7 +1,7 @@
 import "./Work.scss";
-import down from '../../../assets/imgs/down_arrow.png'
-import mockup1 from '../../../assets/imgs/mockup-1.jpeg'
-import mockup2 from '../../../assets/imgs/mockup-2.jpeg'
+import down from '../../../assets/down_arrow.png'
+import mockup1 from '../../../assets/mockup-1.jpeg'
+import mockup2 from '../../../assets/mockup-2.jpeg'
 
 export default function Work() {
   return (

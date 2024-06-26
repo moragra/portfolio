@@ -1,5 +1,5 @@
 import "./Resume.scss";
-import photo from '../../../assets/imgs/gm_photo.png'
+import photo from '../../../assets/gm_photo.png'
 
 export default function Resume() {
   return (
