@@ -10,10 +10,10 @@ export default function Resume() {
           <p className="resume__gt">moragraa@gmail.com</p>
           <p className="resume__gt">403-671-1374</p>
           <p className="resume__gt">
-            <a className="resume__a" href="linkedin.com/in/moragra">linkedin.com/in/moragra</a>
+            <a className="resume__a" href="https://www.linkedin.com/in/graciela--mora">linkedin.com/in/graciela--mora</a>
           </p>
           <p className="resume__gt">
-            <a className="resume__a" href="github.com/moragra">github.com/moragra</a>
+            <a className="resume__a" href="https://www.github.com/moragra">github.com/moragra</a>
           </p>
         </div>
         <div className="resume__info-bttm">
